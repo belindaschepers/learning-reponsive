@@ -1,0 +1,75 @@
+@media screen and (max-width:320px) {
+    #bloc_page
+    {
+        width: 100vw;
+    }
+    header
+    {   
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+    #logo
+    {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    nav ul {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    section {
+        padding-left: 1em;
+        padding-right: 1em;
+        flex-direction: column;
+        h1 {
+            font-size: 12px;
+        }
+    }
+    #banniere_image
+    {
+        margin-top: 15px;
+        height: 20Opx;
+        border-radius: 0px;
+        margin-bottom: 25px;
+        box-shadow: none;
+        background-size: cover;
+        img {
+            border-radius: none;
+        }
+    }
+    
+    #banniere_description
+    {
+        height: 50px;
+        top: 70%;
+        
+    }
+    
+    .bouton_rouge 
+    {
+        text-align: center;
+    }
+    
+    footer 
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        #mes_amis ul
+    {
+        padding: 30%;
+        position: relative;
+        right: 80%;
+    }
+    #mes_photos
+    {
+        width: 100%;
+    }
+}
+}

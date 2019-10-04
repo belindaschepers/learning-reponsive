@@ -1,0 +1,81 @@
+
+@media screen and (max-width:480px) {
+
+header 
+{
+    padding-bottom: 10vw;
+
+    #titre_principal
+    {
+        position: relative;
+        left: 27%;
+    }
+
+    nav ul 
+     {
+       position: relative;
+       top: 50px;
+       right: 40%;
+     }
+    
+}
+     
+#bloc_page
+{
+    width: 500px;
+}
+
+     nav ul 
+     {
+       position: relative;
+       top: 50px;
+       right: 40%;
+     }
+    
+.bouton_rouge 
+{
+    position: relative;
+    left: 22%;
+    top: 20%;
+}
+
+h1 {
+    font-size: 11px;
+    text-align: center;
+}
+
+section
+{
+    padding-left: 1em;
+    padding-right: 2em;
+    flex-direction: column;
+    
+}
+
+aside 
+{
+    position: relative;
+    right: 3vw;
+    bottom: 1vw;
+    top: 1vw;
+    font-size: 12px;
+}
+
+footer {
+    position: relative;
+    top: 5vw;
+}
+     #mes_photos
+    {
+    position: relative;
+    right: 1em;
+     }
+
+    #listes_amis ul 
+     {
+    padding: 10%;
+    position: relative;
+    right: 20%;
+     }
+
+}
