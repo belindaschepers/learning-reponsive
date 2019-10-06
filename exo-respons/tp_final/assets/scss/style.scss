@@ -6,33 +6,4 @@
 
 @import "_320.scss";
 @import "_480.scss";
-
-@media screen and (max-width:720px) {
-
-    header 
-    {
-        padding-bottom: 10vw;
-    
-        #titre_principal
-        {
-            position: relative;
-            left: 27%;
-        }
-    
-        nav ul 
-         {
-           position: relative;
-           top: 50px;
-           right: 90%;
-         }
-        
-    }
-
-    .bouton_rouge
-    {
-        position: relative;
-        left: 350px;
-        top: 20%;
-    }
-    
-}
+@import "_720.scss";
